@@ -1,1 +1,3 @@
-<button (click)="getPhoto()">Get Random Photo</button>
+<div><button (click)="getPhoto()">Get Random Photo</button></div>
+
+<img *ngIf="photoUrl" [src]="photoUrl" />
